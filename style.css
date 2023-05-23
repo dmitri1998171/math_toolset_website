@@ -113,7 +113,7 @@ input[type=text] {
 }
 
 input + select {
-	width: 10%;
+	width: 15%;
 }
 
 select {
