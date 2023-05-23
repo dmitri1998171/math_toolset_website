@@ -177,7 +177,7 @@ button:hover {
 .row {
 	margin: 10px 0;
 	padding: 3px 0;
-	border-style: dotted;
+	/* border-style: dotted; */
 }
 
 .row a {
