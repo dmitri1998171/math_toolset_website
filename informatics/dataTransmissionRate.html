@@ -87,60 +87,59 @@
 			<div class="content">
 				<div class="main" align="center"> 
 					<br>
-					<h1>Перевод типов данных</h1>
+					<h1>Скорость передачи данных</h1>
 					<br>
-
+					
                     <!--Формы-->
 					<form>
 						<br>
-						<div class="row" align="center" style = "width: 75%;"> 
-							<input type="text" placeholder="Введите значение">
-							<select>
-								<option>Йоттабайт</option>
-								<option>Зеттабайт</option>
-								<option>Эксабайт</option>
-								<option>Терабайт</option>
-								<option>Петабайт</option>
-								<option>Гигабайт</option>
-								<option>Мегабайт</option>
-								<option>Килобайт</option>
-								<option>Байт</option>
-								<option>Йоттабит</option>
-								<option>Зеттабит</option>
-								<option>Эксабит</option>
-								<option>Петабит</option>
-								<option>Терабит</option>
-								<option>Гигабит</option>
-								<option>Мегабит</option>
-								<option>Килобит</option>
-								<option>Бит</option>
-							</select>
-							=
-							<input type="text">
-							<select>
-								<option>Йоттабайт</option>
-								<option>Зеттабайт</option>
-								<option>Эксабайт</option>
-								<option>Терабайт</option>
-								<option>Петабайт</option>
-								<option>Гигабайт</option>
-								<option>Мегабайт</option>
-								<option>Килобайт</option>
-								<option>Байт</option>
-								<option>Йоттабит</option>
-								<option>Зеттабит</option>
-								<option>Эксабит</option>
-								<option>Петабит</option>
-								<option>Терабит</option>
-								<option>Гигабит</option>
-								<option>Мегабит</option>
-								<option>Килобит</option>
-								<option>Бит</option>
-							</select>
-						</div>
-						<br><br><br>
+							<table class="row" style="border-spacing: 8px 20px;">
+								<tr>
+									<td class="right">Объём данных (размер файла) I </td>
+									<td>=</td>
+									<td><input type="text" style="width: 150px"></td>
+									<td><select style="width: 150px">
+										<option>Бит</option>
+										<option>Байт</option>
+										<option>Килобит (Кбит)</option>
+										<option>Кибибит (Кибит)</option>
+										<option>Килобайт (Кбайт)</option>
+										<option>Кибибайт (КиБ)</option>
+										<option>Мегабит (Мбит)</option>
+										<option>Мебибит (Мибит)</option>
+										<option>Мегабайт (Мбайт)</option>
+										<option>Мебибайт (Миб)</option>
+										<option>Гигабит (Гбит)</option>
+										<option>Гибибит (Гибит)</option>
+										<option>Гигабайт (Гбайт)</option>
+										<option>Гибибайт (Гиб)</option>
+										<option>Терабит (Тбит)</option>
+										<option>Тебибит (Тибит)</option>
+										<option>Терабайт (Тбайт)</option>
+										<option>Тебибайт (ТиБ)</option>
+									</select></td>
+								</tr>
+								<tr>
+									<td class="right">Время передачи данных t</td>
+									<td>=</td>
+									<td><input type="text" style="width: 150px"></td>
+									<td><select style="width: 150px">
+										<option>Сек</option>
+										<option>Мин</option>
+										<option>Час</option>
+										<option>Сутки</option>
+										<option>Год</option>
+									</select></td>
+								</tr>
+								<tr>
+									<td class="right">Скорость передачи данных V</td>
+									<td>=</td>
+									<td><input type="text" style="width: 150px"></td>
+								</tr>
+							</table>
+						<br><br>
 						<div class="h1+p,h2+p,h3+p" align="center" > 
-							<button type="submit">Перевести</button>
+							<button type="submit">Рассчитать</button>
 						</div>
 						<br>
 					</form>

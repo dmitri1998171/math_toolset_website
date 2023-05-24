@@ -184,6 +184,10 @@ button:hover {
 	/* border-style: dotted; */
 }
 
+.right {
+	text-align: right;
+}
+
 .row a {
 	text-decoration: underline;
 }
