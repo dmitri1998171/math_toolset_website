@@ -113,7 +113,8 @@ input[type=text] {
 }
 
 input + select {
-	width: 15%;
+	width: 31%;
+	padding-left: 0px;
 }
 
 select {
@@ -182,6 +183,10 @@ button:hover {
 	margin: 10px 0;
 	padding: 3px 0;
 	/* border-style: dotted; */
+}
+
+.right {
+	text-align: right;
 }
 
 .row a {
@@ -550,4 +555,11 @@ ul.leftNav li:last-child a {
 .dropdown:hover .dropbtn {
 	background-color: #ddd;
 	color:#b76da5;
+}
+
+hr {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
 }

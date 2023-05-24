@@ -87,46 +87,32 @@
 			<div class="content">
 				<div class="main">
 					<br>
-					<h1>Перевод систем счисления</h1>
+					<h1>Онлайн расчет ускорения</h1>
 					<br>
+                    
+                    <div class="row" align="center">
+                    Просто впиши три значения и нажми "Рассчитать" - последнее значение заполнится само
+                    </div>
+                
+                <!--Формы-->
+                <form>
+                    <div class="row" align="center">
+                        <table>
+                            <td>Скорость 0</td>
+                            <tr><td> v = <input type="text" style="width: 100px; "></td><td>m/s</td></tr>
+                            <td>Скорость 1</td>
+                            <tr><td> v = <input type="text" style="width: 100px; "></td><td>m/s</td></tr>
+                            <td>Время</td>
+                            <tr><td> t = <input type="text" style="width: 100px; "></td><td>sec</td></tr>
+                            <td>Ускорение</td>
+                            <tr><td> a = <input type="text" style="width: 100px; "></td><td>m/s<sup>2</sup></td></tr>
+                        </table>
+                    </div>
 
-                    <!--Формы-->
-					<form>
-						<div class="row" align="center">
-							<label>Введите число</label>
-							<input type="text" placeholder="Input type text">
-						</div>
-						<div class="row" align="center">
-                            <table>
-                                <tr> 
-                                    <td style="color:white;"><b>ИЗ</b></td>
-                                    <td style="color:white;"><b>В</b></td>
-                                </tr>
-                                <tr>
-                                    <td><input type="radio" name="type_1" value="2">2</td>
-                                    <td><input type="radio" name="type_2" value="2">2</td>
-                                </tr>
-                                <tr> 
-                                    <td><input type="radio" name="type_1" value="3">3</td>
-                                    <td><input type="radio" name="type_2" value="3">3</td>
-                                </tr>
-                                <tr> 
-                                    <td><input type="radio" name="type_1" value="8">8</td>
-                                    <td><input type="radio" name="type_2" value="8">8</td>
-                                </tr>
-                                <tr> 
-                                    <td><input type="radio" name="type_1" value="10">10</td>
-                                    <td><input type="radio" name="type_2" value="10">10</td>
-                                </tr>
-                                <tr> 
-                                    <td><input type="radio" name="type_1" value="16">16</td>
-                                    <td><input type="radio" name="type_2" value="16">16</td>
-                                </tr>
-                            </table>
-						</div>
-						<div class="row" align="center">
-							<button type="submit">Перевести</button>
-						</div>
+                    <div class="row" align="center">
+                        <button type="calc">Рассчитать</button>
+                        <button type="clear">Очистить</button>
+                    </div>
 					</form>
 				</div>
 			</div>
